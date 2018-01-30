@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tabuada</string>
+    <string name="adicao">Adição</string>
+    <string name="subtracao">Subtração</string>
+    <string name="multiplicacap">Multiplicação</string>
+    <string name="divisao">Divisão</string>
+</resources>
