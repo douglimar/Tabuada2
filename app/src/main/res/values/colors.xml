@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorAdicao">#2590b1</color>
+    <color name="colorAdicaoLight">#c6e9f4</color>
     <color name="colorSubtracao">#ffa640</color>
     <color name="colorMultiplicacao">#139732</color>
     <color name="colorDivisao">#e40110</color>

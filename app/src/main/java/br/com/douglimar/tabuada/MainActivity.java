@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,9 +16,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnAdicao = findViewById(R.id.btnAdicao);
+        btnAdicao.setOnClickListener(this);
+
         Button btnSubtracao = findViewById(R.id.btnSubtracao);
+        btnSubtracao.setOnClickListener(this);
+
         Button btnMultiplicacao = findViewById(R.id.btnMultiplicacao);
+        btnMultiplicacao.setOnClickListener(this);
+
         Button btnDivisao = findViewById(R.id.btnDivisao);
+        btnDivisao.setOnClickListener(this);
+
+        /*
 
         btnAdicao.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //Toast.makeText(getApplicationContext(), calcMathTables("/",2), Toast.LENGTH_LONG).show();
             }
-        });
+        }); */
     }
 
     public String calcMathTables(String operator, int number) {
@@ -115,5 +124,42 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return sValor;
+    }
+
+    @Override
+    public void onClick(View v) {
+
+
+        Intent intent = new Intent(getApplicationContext(), TabuadaActivity.class);
+
+        switch (v.getId()) {
+
+            case R.id.btnAdicao: {
+                intent.putExtra("type", "+");
+                break;
+            }
+
+            case R.id.btnSubtracao: {
+                intent.putExtra("type", "-");
+                break;
+            }
+
+            case R.id.btnMultiplicacao: {
+                intent.putExtra("type", "*");
+                break;
+            }
+
+            case R.id.btnDivisao: {
+                intent.putExtra("type", "/");
+                break;
+            }
+            default: {
+                intent.putExtra("type", "*");
+                break;
+            }
+
+        }
+
+        startActivity(intent);
     }
 }
