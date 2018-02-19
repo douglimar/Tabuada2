@@ -4,4 +4,14 @@
     <string name="subtracao">Subtração</string>
     <string name="multiplicacap">Multiplicação</string>
     <string name="divisao">Divisão</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1098336821710456/6719786400</string>
+    <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="title_activity_new_result" translatable="false">NewResultActivity</string>
+    <string name="tabuada_subtracao_title">Tabuada de Subtração</string>
+    <string name="tabuada_multiplicacao_title">Tabuada de Multiplicação</string>
+    <string name="tabuada_divisao_title">Tabuada de Divisão</string>
+    <string name="tabuada_adicao_title">Tabuada de Adição</string>
+    <string name="ddm_store">Link para PlayStore: https://play.google.com/store/apps/details?id=br.com.douglimar.tabuada</string>
+    <string name="comparilhar_com">Compartilhar com</string>
+
 </resources>

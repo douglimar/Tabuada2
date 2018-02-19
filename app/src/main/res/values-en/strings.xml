@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Table</string>
+    <string name="adicao">Addition</string>
+    <string name="subtracao">Minus</string>
+    <string name="multiplicacap">Multiplication</string>
+    <string name="divisao">Division</string>
+    <string name="tabuada_subtracao_title">Minus Math Table</string>
+    <string name="tabuada_multiplicacao_title">Multiplication Math Table</string>
+    <string name="tabuada_divisao_title">Division Math Table</string>
+    <string name="tabuada_adicao_title">Addition Math Table</string>
+    <string name="ddm_store">Playstore link:</string>
+    <string name="comparilhar_com">Share with</string>
+</resources>

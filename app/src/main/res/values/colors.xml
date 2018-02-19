@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-
-    <color name="colorAdicao">#2590b1</color>
-    <color name="colorAdicaoLight">#c6e9f4</color>
+    <color name="colorPrimary">#4f5051</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ed891d</color>
+    <color name="colorAdicao">#1e6f87</color>
+    <color name="colorAdicaoLight">#7ad7f4</color>
     <color name="colorSubtracao">#ffa640</color>
-    <color name="colorMultiplicacao">#139732</color>
-    <color name="colorDivisao">#e40110</color>
+    <color name="colorSubtracaoLight">#f9c860</color>
+    <color name="colorMultiplicacao">#0b7423</color>
+    <color name="colorMultiplicacaoLight">#54e175</color>
+    <color name="colorDivisao">#8e030c</color>
+    <color name="colorDivisaoLight">#f43c49</color>
     <color name="colorWhite">#fff</color>
+    <color name="black_overlay">#66000000</color>
 
 
 </resources>

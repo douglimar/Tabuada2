@@ -26,10 +26,10 @@
                 android:id="@+id/btnAdicao"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
-                android:layout_marginEnd="5dp"
+                android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 android:text="@string/adicao"
                 android:textSize="14sp"
@@ -37,15 +37,15 @@
                 android:textColor="@color/colorWhite"
                 android:background="@color/colorAdicao"
                 android:drawableTop="@drawable/ic_plus_white32dp"
-                android:paddingTop="50dp"
+                android:paddingTop="10dp"
                 />
 
             <Button
                 android:id="@+id/btnSubtracao"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginEnd="5dp"
+                android:layout_marginEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -55,7 +55,7 @@
                 android:textColor="@color/colorWhite"
                 android:background="@color/colorSubtracao"
                 android:drawableTop="@drawable/ic_minus_white32dp"
-                android:paddingTop="50dp"
+                android:paddingTop="10dp"
                 />
 
 
@@ -71,10 +71,10 @@
 
             <Button
                 android:id="@+id/btnMultiplicacao"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -84,19 +84,19 @@
                 android:textColor="@color/colorWhite"
                 android:background="@color/colorMultiplicacao"
                 android:drawableTop="@drawable/ic_multiply_white_32dp"
-                android:paddingTop="50dp"
+                android:paddingTop="10dp"
                 />
 
 
             <Button
                 android:id="@+id/btnDivisao"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="20dp"
                 android:layout_width="match_parent"
                 android:drawableTop="@drawable/ic_division_white32dp"
-                android:paddingTop="50dp"
+                android:paddingTop="10dp"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:text="@string/divisao"
@@ -118,16 +118,4 @@
         ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_weight="1"/>
 
-    <!--
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adViewMain"
-
-            android:layout_margin="6dp"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
-
-        ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_unit_id_TESTE"
-    -->
 </LinearLayout>
